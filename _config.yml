@@ -3,17 +3,17 @@ image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 
 # UI configs
-title: "Photography by Pushpinder Pal Singh"
+title: "Photography by Devesh Sangwan"
 subtitle: "See the world through my eyes!"
-author:  "Pushpinder Pal Singh"
+author:  "Devesh Sangwan"
 header:
  title: "Photography"
- subtitle: "by Pushpinder Pal Singh"
+ subtitle: "by Devesh Sangwan"
 footer:
- name: "Hey there, I am Pushpinder Pal Singh "
- bio: "a pre-final year computer engineering student at the Netaji Subhas University of Technology, New Delhi. I am an iOS developer with experience in creating apps in AR amongst other things. To me a photo says a thousand words and I like writing chapters of my life"
+ name: "Hey there, I am Devesh Sangwan "
+ bio: "a pre-final year computer engineering student at the Netaji Subhas University of Technology, New Delhi."
 social_urls:
-  twitter: "https://twitter.com/pushpinderpal_"
-  instagram: "https://www.instagram.com/pushpinderpalsingh_/"
-  linkedin: "https://www.linkedin.com/in/pushpinderpalsingh/"
-  github: "https://github.com/pushpinderpalsingh"
+  twitter: "https://twitter.com/sangwan2001"
+  instagram: "https://www.instagram.com/devesh.sangwan/"
+  linkedin: "https://www.linkedin.com/in/devesh-sangwan-4a6646165/"
+  github: "https://github.com/deveshsangwan"
