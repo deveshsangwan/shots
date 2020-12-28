@@ -1,0 +1,34 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: add-images-gulp CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - run: npm install
+    - run: |
+        sudo add-apt-repository ppa:dhor/myway
+        sudo apt-get update
+        sudo apt-get install graphicsmagick
+    - run: gulp
+   
+    - name: push
+      uses: github-actions-x/commit@v2.7
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'publish'
+        force-add: 'true'
+        files: images/* 
+        name: devesh
+        email: dev.sangwan2001@gmail.com
