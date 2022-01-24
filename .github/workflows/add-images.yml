@@ -22,9 +22,9 @@ jobs:
         sudo apt-get install graphicsmagick
     - run: gulp
    
-    - name: 
-      git config --global user.email "bow_oleo_0r@icloud.com"
-          git config --global user.name "bot"
-          git add $SHOT_NAME.jpeg
-          git commit -m "Add Image from Instagram"
-          git push
+    - run: | 
+        git config --global user.email "bow_oleo_0r@icloud.com"
+        git config --global user.name "bot"
+        git add $SHOT_NAME.jpeg
+        git commit -m "Add Image from Instagram"
+        git push
