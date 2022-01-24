@@ -22,13 +22,9 @@ jobs:
         sudo apt-get install graphicsmagick
     - run: gulp
    
-    - name: push
-      uses: github-actions-x/commit@v2.7
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'main'
-        commit-message: 'publish'
-        force-add: 'true'
-        files: images/* 
-        name: devesh
-        email: dev.sangwan2001@gmail.com
+    - name: 
+      git config --global user.email "bow_oleo_0r@icloud.com"
+          git config --global user.name "bot"
+          git add $SHOT_NAME.jpeg
+          git commit -m "Add Image from Instagram"
+          git push
