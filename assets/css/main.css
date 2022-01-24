@@ -47,9 +47,10 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-
+/*make scrollbar transparent*/
 	::-webkit-scrollbar {
 		width: 0px;
+		background: transparent;
 	}
 
 /* Box Model */
