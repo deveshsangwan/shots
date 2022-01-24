@@ -27,8 +27,8 @@ jobs:
           echo $SHOT_NAME and $URL
           wget --output-document=$SHOT_NAME.jpeg $URL
           
-          git config --global user.email "bow_oleo_0r@icloud.com"
-          git config --global user.name "bot"
+          git config --global user.email "dev.sangwan2001@gmail.com"
+          git config --global user.name "deveshsangwan"
           git add $SHOT_NAME.jpeg
           git commit -m "Add Image from Instagram"
           git push
