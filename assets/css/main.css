@@ -46,6 +46,7 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+		overflow: hidden;
 	}
 
 /* Box Model */
