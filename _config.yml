@@ -17,3 +17,6 @@ social_urls:
   instagram: "https://www.instagram.com/devesh.sangwan/"
   linkedin: "https://www.linkedin.com/in/devesh-sangwan-4a6646165/"
   github: "https://github.com/deveshsangwan"
+
+
+theme: jekyll-theme-slate
