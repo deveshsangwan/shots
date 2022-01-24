@@ -53,8 +53,8 @@ jobs:
 
       - name: Check for updates and push
         run: | 
-          git config --global user.email "bot@swiftlysingh.com"
-          git config --global user.name "bot"
+          git config --global user.email "dev.sangwan2001@gmail.com"
+          git config --global user.name "deveshsangwan"
           git add .
           git commit -m "Convert JPEG"
           git push
