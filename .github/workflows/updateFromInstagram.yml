@@ -49,6 +49,9 @@ jobs:
           sudo apt-get update
           sudo apt-get install graphicsmagick
       
+      - run: |
+          git pull
+      
       - run: gulp
 
       - name: Check for updates and push
