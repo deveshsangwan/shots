@@ -46,7 +46,10 @@
 
 	body {
 		-webkit-text-size-adjust: none;
-		overflow: hidden;
+	}
+
+	::-webkit-scrollbar {
+		width: 0px;
 	}
 
 /* Box Model */
