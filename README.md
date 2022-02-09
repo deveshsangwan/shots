@@ -1,3 +1,4 @@
+[![Update from Instagram](https://github.com/deveshsangwan/shots/actions/workflows/updateFromInstagram.yml/badge.svg)](https://github.com/deveshsangwan/shots/actions/workflows/updateFromInstagram.yml)
 # Photography 
 A jekyll website for photographers
 
