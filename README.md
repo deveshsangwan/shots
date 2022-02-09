@@ -1,4 +1,5 @@
 [![Update from Instagram](https://github.com/deveshsangwan/shots/actions/workflows/updateFromInstagram.yml/badge.svg)](https://github.com/deveshsangwan/shots/actions/workflows/updateFromInstagram.yml)
+[![Photography](https://img.shields.io/badge/Photography-Shots-black?style=for-the-badge)](https://shots.deveshsangwan.me/)
 # Photography 
 A jekyll website for photographers
 
