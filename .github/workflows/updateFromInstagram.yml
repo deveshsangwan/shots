@@ -56,7 +56,6 @@ jobs:
 
       - name: Check for updates and push
         run: |
-          rm images/*.jpeg
           git config --global user.email "dev.sangwan2001@gmail.com"
           git config --global user.name "deveshsangwan"
           git add images/*
