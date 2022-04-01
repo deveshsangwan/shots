@@ -2,7 +2,7 @@
 
 [![Photography](https://img.shields.io/badge/Photography-Shots-black?style=for-the-badge)](https://shots.deveshsangwan.me/)
 # Shots
-A jekyll website for photographers. You can set up [Zapier Workflow](https://zapier.com/shared/5617774e53ce7454c52e31623571912a4cae6d5e) which will connect to Instagram.
+A tracker and ad free version of [rampatra/photography](https://github.com/rampatra/photography) with automations. You can set up [Zapier Workflow](https://zapier.com/shared/5617774e53ce7454c52e31623571912a4cae6d5e) which will connect to Instagram.
 
 ## Highlights
 1. Easy setup and you get a site of your own for __free__.
@@ -33,3 +33,6 @@ You can change my name in `_config.yml` file.
 4. Copy all your pictures (possibly jpg, the largest size available, straight from your camera) and put it inside `images` directory
 5. Run `$ gulp` to resize the images and to generate thumbnails automatically
 6. Push your changes to github.com by `$ git add --all` and `$ git commit -m "a nice commit message"` and then finally `$ git push origin master`
+
+## Acknowledgment
+All the credit for this website goes to [Ram](https://github.com/rampatra).
